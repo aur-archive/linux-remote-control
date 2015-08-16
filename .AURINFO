@@ -1,0 +1,16 @@
+pkgbase = linux-remote-control
+	pkgdesc = Turn any device into a complete remote control for your GNU/Linux.
+	pkgver = 0.4
+	pkgrel = 1
+	url = http://www.linuxremotecontrol.com/
+	install = linux-remote-control.install
+	arch = any
+	license = GPL v2
+	depends = nodejs
+	depends = xdotool
+	depends = xorg-xbacklight
+	conflicts = linux-remote-control-git
+	source = linux-remote-control.deb::http://www.linuxremotecontrol.com/lrc-ffos.deb
+
+pkgname = linux-remote-control
+
